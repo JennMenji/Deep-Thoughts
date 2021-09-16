@@ -33,10 +33,10 @@ const Login = (props) => {
     }
 
     // clear form values
-    // setFormState({
-    //   email: "",
-    //   password: "",
-    // });
+    setFormState({
+      email: "",
+      password: "",
+    });
   };
 
   return (
